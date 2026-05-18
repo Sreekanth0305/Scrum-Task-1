@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image:linear-gradient(to right, rgb(72, 199, 215), rgb(210, 91, 206));
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 15px 5px;
+}
+
+h3 {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+.follow-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6464be;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.follow-button:hover {
+  background-color: #0056b3;
+}

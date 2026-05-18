@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image:linear-gradient(to right, rgb(223, 221, 103), rgb(188, 192, 158));
+}
+
+.app {
+  text-align: center;
+  padding: 100px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.button-container {
+  margin-bottom: 25px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+button:hover {
+  background-color: #0a3261;
+  transform: scale(1.05);
+}
+
+.active-btn {
+  background-color: #5ecd3c;
+}
+
+.card {
+  width: 350px;
+  margin: auto;
+  background: rgb(224, 158, 110);
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+
+}
+
+.card:hover {
+  transform: translateY(5px);
+}
+
+.card h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.card a {
+  text-decoration: none;
+  color: #bc0f77;
+}
+
+.loader-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  margin-top: 100px;
+}

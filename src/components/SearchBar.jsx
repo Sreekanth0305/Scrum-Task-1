@@ -1,12 +1,32 @@
-function SearchBar({ search, setSearch }) {
+// function SearchBar({ search, setSearch }) {
+
+//   return (
+//     <input
+//       type="text"
+//       placeholder="Search Users..."
+//       value={search}
+//       onChange={(e) => setSearch(e.target.value)}
+//       className="search"
+//     />
+//   );
+// }
+
+// export default SearchBar;
+
+function SearchBar({
+  search,
+  setSearch
+}) {
 
   return (
     <input
       type="text"
       placeholder="Search Users..."
       value={search}
-      onChange={(e) => setSearch(e.target.value)}
-      className="search"
+      onChange={(e) =>
+        setSearch(e.target.value)
+      }
+      className="search-box"
     />
   );
 }
